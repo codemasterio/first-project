@@ -1,0 +1,24 @@
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+
+.todoitems-container{
+    display: flex;
+}
+.todoitems-text{
+    padding-left: 16px;
+    color:rgb(31, 29, 29) ;
+    font-size: 22px;
+}
+
+.todo-wrong-icon{
+    cursor: pointer;
+    padding-right: 25px;
+}
+.line-through {
+    text-decoration: line-through solid rgb(193, 183, 183) 3px;
+
+}
